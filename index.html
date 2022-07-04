@@ -14,7 +14,8 @@
         <div class="container">
             <div class="row p-3">
                 <div class="col-12 text-center">
-                    <h1>Ciao {{userName}}</h1>
+                    <img :src="imgSource" class="ms_img" alt="profilePic">
+                    <h1 class="mt-1">Ciao {{userName}}</h1>
                     <input type="text" v-model="userName" placeholder="Scrivi il tuo nome">
                 </div>
             </div>
